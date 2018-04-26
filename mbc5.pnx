@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500" device="XC9536" pkg="VQ44" spg="-10"/><pin dir="input" nm="data&lt;6&gt;" no="16"/><pin dir="input" nm="data&lt;5&gt;" no="14"/><pin dir="input" nm="data&lt;4&gt;" no="13"/><pin dir="input" nm="data&lt;2&gt;" no="7"/><pin dir="input" nm="cs" no="42"/><pin dir="input" nm="addr&lt;14&gt;" no="2"/><pin dir="input" nm="addr&lt;13&gt;" no="1"/><pin dir="input" nm="addr&lt;15&gt;" no="3"/><pin dir="input" nm="wr" no="41"/><pin dir="input" nm="rd" no="44"/><pin dir="input" nm="rst" no="19"/><pin dir="input" nm="data&lt;0&gt;" no="5"/><pin dir="input" nm="data&lt;1&gt;" no="6"/><pin dir="input" nm="data&lt;3&gt;" no="8"/><pin dir="input" nm="data&lt;7&gt;" no="18"/><pin dir="input" nm="addr&lt;12&gt;" no="32"/><pin dir="output" nm="ramsel" no="20" sr="fast"/><pin dir="output" nm="roma&lt;14&gt;" no="21" sr="fast"/><pin dir="output" nm="roma&lt;15&gt;" no="22" sr="fast"/><pin dir="output" nm="roma&lt;16&gt;" no="23" sr="fast"/><pin dir="output" nm="roma&lt;17&gt;" no="27" sr="fast"/><pin dir="output" nm="roma&lt;18&gt;" no="28" sr="fast"/><pin dir="output" nm="roma&lt;19&gt;" no="29" sr="fast"/><pin dir="output" nm="roma&lt;20&gt;" no="30" sr="fast"/><pin dir="output" nm="roma&lt;21&gt;" no="31" sr="fast"/><pin dir="output" nm="roma&lt;22&gt;" no="36" sr="fast"/><pin dir="bidir" nm="rama&lt;13&gt;" no="40" sr="fast"/><pin dir="bidir" nm="rama&lt;14&gt;" no="39" sr="fast"/><pin dir="bidir" nm="rama&lt;15&gt;" no="38" sr="fast"/><pin dir="bidir" nm="rama&lt;16&gt;" no="37" sr="fast"/></ibis>

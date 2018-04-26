@@ -1,0 +1,48 @@
+Pin Freeze File:  version P.20131013
+
+953644VQ XC9536-10-VQ44
+addr<12> S:PIN32
+addr<13> S:PIN1
+addr<14> S:PIN2
+addr<15> S:PIN3
+cs S:PIN42
+data<0> S:PIN5
+data<1> S:PIN6
+data<2> S:PIN7
+data<3> S:PIN8
+data<4> S:PIN13
+data<5> S:PIN14
+data<6> S:PIN16
+data<7> S:PIN18
+rd S:PIN44
+rst S:PIN19
+wr S:PIN41
+rama<13> S:PIN40
+rama<14> S:PIN39
+rama<15> S:PIN38
+rama<16> S:PIN37
+ramsel S:PIN20
+roma<14> S:PIN21
+roma<15> S:PIN22
+roma<16> S:PIN23
+roma<17> S:PIN27
+roma<18> S:PIN28
+roma<19> S:PIN29
+roma<20> S:PIN30
+roma<21> S:PIN31
+roma<22> S:PIN36
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 rama_0
+PARTITION FB1_12 romb_8 romb_7 romb_6 romb_5
+		 romb_4 romb_3 romb_2
+PARTITION FB2_1 rama_1 rama_2 roma_22_OBUF rama_3
+		
+PARTITION FB2_7 romb_1 roma_21_OBUF roma_20_OBUF roma_19_OBUF
+		 roma_18_OBUF roma_17_OBUF roma_16_OBUF roma_15_OBUF
+		 roma_14_OBUF ramsel_OBUF romb_0 ramen
+		
+

@@ -1,0 +1,467 @@
+ 
+cpldfit:  version P.20131013                        Xilinx Inc.
+                                  Fitter Report
+Design Name: mbc5                                Date:  4-26-2018,  1:19PM
+Device Used: XC9536-10-VQ44
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+24 /36  ( 67%) 82  /180  ( 46%) 51 /72  ( 71%)   14 /36  ( 39%) 30 /34  ( 88%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Signals     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used        Used/Tot    Used/Tot    
+FB1           8/18       22/36       22          40/90       1/17
+FB2          16/18       29/36       29          42/90      13/17
+             -----       -----                   -----       -----     
+             24/36       51/72                   82/180     14/34 
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Global clock net(s) unused.
+Global output enable net(s) unused.
+Global set/reset net(s) unused.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :   16          16    |  I/O              :    27      28
+Output        :   10          10    |  GCK/IO           :     2       3
+Bidirectional :    4           4    |  GTS/IO           :     1       2
+GCK           :    0           0    |  GSR/IO           :     0       1
+GTS           :    0           0    |
+GSR           :    0           0    |
+                 ----        ----
+        Total     30          30
+
+** Power Data **
+
+There are 24 macrocells in high performance mode (MCHP).
+There are 0 macrocells in low power mode (MCLP).
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'mbc5.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'addr<13>' based upon the LOC
+   constraint 'P1'. It is recommended that you declare this BUFG explicitedly in
+   your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+INFO:Cpld - Inferring BUFG constraint for signal 'rd' based upon the LOC
+   constraint 'P44'. It is recommended that you declare this BUFG explicitedly
+   in your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+WARNING:Cpld:1239 - The global clock designation (BUFG) on signal 'rd_IBUF' is
+   ignored. Most likely the signal is gated and therefore cannot be used as a
+   global control signal.
+WARNING:Cpld:1239 - The global clock designation (BUFG) on signal 'addr_13_IBUF'
+   is ignored. Most likely the signal is gated and therefore cannot be used as a
+   global control signal.
+*************************  Summary of Mapped Logic  ************************
+
+** 14 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                Pts   Inps          No.  Type    Use     Mode Rate State
+rama<13>            5     8     FB1_1   40   I/O     I/O     STD  FAST RESET
+rama<14>            5     8     FB2_1   39   I/O     I/O     STD  FAST RESET
+rama<15>            5     8     FB2_2   38   I/O     I/O     STD  FAST RESET
+roma<22>            1     2     FB2_3   36   GTS/I/O O       STD  FAST 
+rama<16>            5     8     FB2_4   37   I/O     I/O     STD  FAST RESET
+roma<21>            1     2     FB2_8   31   I/O     O       STD  FAST 
+roma<20>            1     2     FB2_9   30   I/O     O       STD  FAST 
+roma<19>            1     2     FB2_10  29   I/O     O       STD  FAST 
+roma<18>            1     2     FB2_11  28   I/O     O       STD  FAST 
+roma<17>            1     2     FB2_12  27   I/O     O       STD  FAST 
+roma<16>            1     2     FB2_13  23   I/O     O       STD  FAST 
+roma<15>            1     2     FB2_14  22   I/O     O       STD  FAST 
+roma<14>            1     2     FB2_15  21   I/O     O       STD  FAST 
+ramsel              2     7     FB2_16  20   I/O     O       STD  FAST 
+
+** 10 Buried Nodes **
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+romb_8              5     9     FB1_12  STD  RESET
+romb_7              5     9     FB1_13  STD  RESET
+romb_6              5     9     FB1_14  STD  RESET
+romb_5              5     9     FB1_15  STD  RESET
+romb_4              5     9     FB1_16  STD  RESET
+romb_3              5     9     FB1_17  STD  RESET
+romb_2              5     9     FB1_18  STD  RESET
+romb_1              5     9     FB2_7   STD  RESET
+romb_0              5     9     FB2_17  STD  RESET
+ramen               6     15    FB2_18  STD  RESET
+
+** 16 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+wr                  FB1_2   41   I/O     I
+cs                  FB1_4   42   I/O     I
+rd                  FB1_5   44   GCK/I/O I
+addr<14>            FB1_6   2    I/O     I
+addr<13>            FB1_7   1    GCK/I/O I
+addr<15>            FB1_8   3    I/O     I
+data<0>             FB1_9   5    I/O     I
+data<1>             FB1_10  6    I/O     I
+data<2>             FB1_11  7    I/O     I
+data<3>             FB1_12  8    I/O     I
+data<4>             FB1_14  13   I/O     I
+data<5>             FB1_15  14   I/O     I
+data<6>             FB1_16  16   I/O     I
+data<7>             FB1_17  18   I/O     I
+addr<12>            FB2_7   32   I/O     I
+rst                 FB2_17  19   I/O     I
+
+Legend:
+Pin No. - ~ - User Assigned
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Imp Pt       - Product terms imported from other macrocells
+Exp Pt       - Product terms exported to other macrocells
+               in direction shown
+Unused Pt    - Unused local product terms remaining in macrocell
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global Clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+X(@)         - Signal used as input (wire-AND input) to the macrocell logic.
+               The number of Signals Used may exceed the number of FB Inputs
+               Used due to wire-ANDing in the switch matrix.
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               22/14
+Number of signals used by logic mapping into function block:  22
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+rama<13>              5       0     0   0     FB1_1   40    I/O     I/O
+(unused)              0       0     0   5     FB1_2   41    I/O     I
+(unused)              0       0     0   5     FB1_3   43    GCK/I/O 
+(unused)              0       0     0   5     FB1_4   42    I/O     I
+(unused)              0       0     0   5     FB1_5   44    GCK/I/O I
+(unused)              0       0     0   5     FB1_6   2     I/O     I
+(unused)              0       0     0   5     FB1_7   1     GCK/I/O I
+(unused)              0       0     0   5     FB1_8   3     I/O     I
+(unused)              0       0     0   5     FB1_9   5     I/O     I
+(unused)              0       0     0   5     FB1_10  6     I/O     I
+(unused)              0       0     0   5     FB1_11  7     I/O     I
+romb_8                5       0     0   0     FB1_12  8     I/O     I
+romb_7                5       0     0   0     FB1_13  12    I/O     (b)
+romb_6                5       0     0   0     FB1_14  13    I/O     I
+romb_5                5       0     0   0     FB1_15  14    I/O     I
+romb_4                5       0     0   0     FB1_16  16    I/O     I
+romb_3                5       0     0   0     FB1_17  18    I/O     I
+romb_2                5       0     0   0     FB1_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: addr<12>           9: data<4>           16: romb_4 
+  2: addr<13>          10: data<5>           17: romb_5 
+  3: addr<14>          11: data<6>           18: romb_6 
+  4: addr<15>          12: data<7>           19: romb_7 
+  5: cs                13: rama<13>.PIN      20: romb_8 
+  6: data<0>           14: romb_2            21: rst 
+  7: data<2>           15: romb_3            22: wr 
+  8: data<3>          
+
+Signal                        1         2         3         4 Signals FB
+Name                0----+----0----+----0----+----0----+----0 Used    Inputs
+rama<13>             .XXXXX......X.......XX.................. 8       8
+romb_8               XXXXXX.............XXX.................. 9       9
+romb_7               XXXXX......X......X.XX.................. 9       9
+romb_6               XXXXX.....X......X..XX.................. 9       9
+romb_5               XXXXX....X......X...XX.................. 9       9
+romb_4               XXXXX...X......X....XX.................. 9       9
+romb_3               XXXXX..X......X.....XX.................. 9       9
+romb_2               XXXXX.X......X......XX.................. 9       9
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               29/7
+Number of signals used by logic mapping into function block:  29
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+rama<14>              5       0     0   0     FB2_1   39    I/O     I/O
+rama<15>              5       0     0   0     FB2_2   38    I/O     I/O
+roma<22>              1       0     0   4     FB2_3   36    GTS/I/O O
+rama<16>              5       0     0   0     FB2_4   37    I/O     I/O
+(unused)              0       0     0   5     FB2_5   34    GTS/I/O 
+(unused)              0       0     0   5     FB2_6   33    GSR/I/O 
+romb_1                5       0     0   0     FB2_7   32    I/O     I
+roma<21>              1       0     0   4     FB2_8   31    I/O     O
+roma<20>              1       0     0   4     FB2_9   30    I/O     O
+roma<19>              1       0     0   4     FB2_10  29    I/O     O
+roma<18>              1       0     0   4     FB2_11  28    I/O     O
+roma<17>              1       0     0   4     FB2_12  27    I/O     O
+roma<16>              1       0     0   4     FB2_13  23    I/O     O
+roma<15>              1       0     0   4     FB2_14  22    I/O     O
+roma<14>              1       0     0   4     FB2_15  21    I/O     O
+ramsel                2       0   \/1   2     FB2_16  20    I/O     O
+romb_0                5       1<- \/1   0     FB2_17  19    I/O     I
+ramen                 6       1<-   0   0     FB2_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: addr<12>          11: data<5>           21: romb_2 
+  2: addr<13>          12: data<6>           22: romb_3 
+  3: addr<14>          13: data<7>           23: romb_4 
+  4: addr<15>          14: rama<14>.PIN      24: romb_5 
+  5: cs                15: rama<15>.PIN      25: romb_6 
+  6: data<0>           16: rama<16>.PIN      26: romb_7 
+  7: data<1>           17: ramen             27: romb_8 
+  8: data<2>           18: rd                28: rst 
+  9: data<3>           19: romb_0            29: wr 
+ 10: data<4>           20: romb_1           
+
+Signal                        1         2         3         4 Signals FB
+Name                0----+----0----+----0----+----0----+----0 Used    Inputs
+rama<14>             .XXXX.X......X.............XX........... 8       8
+rama<15>             .XXXX..X......X............XX........... 8       8
+roma<22>             ..X.......................X............. 2       2
+rama<16>             .XXXX...X......X...........XX........... 8       8
+romb_1               XXXXX.X............X.......XX........... 9       9
+roma<21>             ..X......................X.............. 2       2
+roma<20>             ..X.....................X............... 2       2
+roma<19>             ..X....................X................ 2       2
+roma<18>             ..X...................X................. 2       2
+roma<17>             ..X..................X.................. 2       2
+roma<16>             ..X.................X................... 2       2
+roma<15>             ..X................X.................... 2       2
+roma<14>             ..X...............X..................... 2       2
+ramsel               .XXXX...........XX..........X........... 7       7
+romb_0               XXXXXX............X........XX........... 9       9
+ramen                .XXXXXXXXXXXX...X..........XX........... 15      15
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+FTCPE_rama13: FTCPE port map (rama(13),rama_T(13),NOT wr,NOT rst,'0');
+rama_T(13) <= ((cs AND rama(13).PIN)
+	OR (NOT addr(15) AND addr(14) AND NOT addr(13) AND NOT data(0) AND 
+	rama(13).PIN)
+	OR (NOT cs AND NOT addr(15) AND addr(14) AND NOT addr(13) AND data(0) AND 
+	NOT rama(13).PIN));
+
+FTCPE_rama14: FTCPE port map (rama(14),rama_T(14),NOT wr,NOT rst,'0');
+rama_T(14) <= ((cs AND rama(14).PIN)
+	OR (NOT addr(15) AND addr(14) AND NOT addr(13) AND NOT data(1) AND 
+	rama(14).PIN)
+	OR (NOT cs AND NOT addr(15) AND addr(14) AND NOT addr(13) AND data(1) AND 
+	NOT rama(14).PIN));
+
+FTCPE_rama15: FTCPE port map (rama(15),rama_T(15),NOT wr,NOT rst,'0');
+rama_T(15) <= ((cs AND rama(15).PIN)
+	OR (NOT data(2) AND NOT addr(15) AND addr(14) AND NOT addr(13) AND 
+	rama(15).PIN)
+	OR (data(2) AND NOT cs AND NOT addr(15) AND addr(14) AND NOT addr(13) AND 
+	NOT rama(15).PIN));
+
+FTCPE_rama16: FTCPE port map (rama(16),rama_T(16),NOT wr,NOT rst,'0');
+rama_T(16) <= ((cs AND rama(16).PIN)
+	OR (NOT addr(15) AND addr(14) AND NOT addr(13) AND NOT data(3) AND 
+	rama(16).PIN)
+	OR (NOT cs AND NOT addr(15) AND addr(14) AND NOT addr(13) AND data(3) AND 
+	NOT rama(16).PIN));
+
+FDCPE_ramen: FDCPE port map (ramen,ramen_D,NOT wr,NOT rst,'0');
+ramen_D <= ((NOT data(6) AND NOT data(5) AND NOT data(4) AND NOT data(2) AND NOT cs AND 
+	NOT addr(15) AND NOT addr(14) AND NOT addr(13) AND data(3) AND data(1) AND 
+	NOT data(0) AND NOT data(7))
+	OR (NOT cs AND ramen AND addr(15))
+	OR (NOT cs AND ramen AND addr(14))
+	OR (NOT cs AND ramen AND addr(13)));
+
+
+ramsel <= NOT (((NOT cs AND NOT wr AND ramen AND addr(15) AND NOT addr(14) AND 
+	addr(13))
+	OR (NOT cs AND ramen AND addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT rd)));
+
+
+roma(14) <= (romb_0 AND addr(14));
+
+
+roma(15) <= (romb_1 AND addr(14));
+
+
+roma(16) <= (romb_2 AND addr(14));
+
+
+roma(17) <= (romb_3 AND addr(14));
+
+
+roma(18) <= (romb_4 AND addr(14));
+
+
+roma(19) <= (romb_5 AND addr(14));
+
+
+roma(20) <= (romb_6 AND addr(14));
+
+
+roma(21) <= (romb_7 AND addr(14));
+
+
+roma(22) <= (romb_8 AND addr(14));
+
+FTCPE_romb_0: FTCPE port map (romb_0,romb_0_T,NOT wr,'0',NOT rst);
+romb_0_T <= ((NOT cs AND romb_0 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND NOT data(0))
+	OR (cs AND NOT romb_0)
+	OR (NOT romb_0 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND data(0)));
+
+FTCPE_romb_1: FTCPE port map (romb_1,romb_1_T,NOT wr,NOT rst,'0');
+romb_1_T <= ((cs AND romb_1)
+	OR (romb_1 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND NOT data(1))
+	OR (NOT cs AND NOT romb_1 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND data(1)));
+
+FTCPE_romb_2: FTCPE port map (romb_2,romb_2_T,NOT wr,NOT rst,'0');
+romb_2_T <= ((cs AND romb_2)
+	OR (NOT data(2) AND romb_2 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12))
+	OR (data(2) AND NOT cs AND NOT romb_2 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12)));
+
+FTCPE_romb_3: FTCPE port map (romb_3,romb_3_T,NOT wr,NOT rst,'0');
+romb_3_T <= ((cs AND romb_3)
+	OR (romb_3 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND NOT data(3))
+	OR (NOT cs AND NOT romb_3 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND data(3)));
+
+FTCPE_romb_4: FTCPE port map (romb_4,romb_4_T,NOT wr,NOT rst,'0');
+romb_4_T <= ((cs AND romb_4)
+	OR (NOT data(4) AND romb_4 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12))
+	OR (data(4) AND NOT cs AND NOT romb_4 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12)));
+
+FTCPE_romb_5: FTCPE port map (romb_5,romb_5_T,NOT wr,NOT rst,'0');
+romb_5_T <= ((cs AND romb_5)
+	OR (NOT data(5) AND romb_5 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12))
+	OR (data(5) AND NOT cs AND NOT romb_5 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12)));
+
+FTCPE_romb_6: FTCPE port map (romb_6,romb_6_T,NOT wr,NOT rst,'0');
+romb_6_T <= ((cs AND romb_6)
+	OR (NOT data(6) AND romb_6 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12))
+	OR (data(6) AND NOT cs AND NOT romb_6 AND NOT addr(15) AND NOT addr(14) AND 
+	addr(13) AND NOT addr(12)));
+
+FTCPE_romb_7: FTCPE port map (romb_7,romb_7_T,NOT wr,NOT rst,'0');
+romb_7_T <= ((cs AND romb_7)
+	OR (romb_7 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND NOT data(7))
+	OR (NOT cs AND NOT romb_7 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	NOT addr(12) AND data(7)));
+
+FTCPE_romb_8: FTCPE port map (romb_8,romb_8_T,NOT wr,NOT rst,'0');
+romb_8_T <= ((cs AND romb_8)
+	OR (romb_8 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	addr(12) AND NOT data(0))
+	OR (NOT cs AND NOT romb_8 AND NOT addr(15) AND NOT addr(14) AND addr(13) AND 
+	addr(12) AND data(0)));
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE); 
+ FTCPE (Q,D,C,CLR,PRE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC9536-10-VQ44
+
+
+   --------------------------------  
+  /44 43 42 41 40 39 38 37 36 35 34 \
+ | 1                             33 | 
+ | 2                             32 | 
+ | 3                             31 | 
+ | 4                             30 | 
+ | 5         XC9536-10-VQ44      29 | 
+ | 6                             28 | 
+ | 7                             27 | 
+ | 8                             26 | 
+ | 9                             25 | 
+ | 10                            24 | 
+ | 11                            23 | 
+ \ 12 13 14 15 16 17 18 19 20 21 22 /
+   --------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 addr<13>                         23 roma<16>                      
+  2 addr<14>                         24 TDO                           
+  3 addr<15>                         25 GND                           
+  4 GND                              26 VCC                           
+  5 data<0>                          27 roma<17>                      
+  6 data<1>                          28 roma<18>                      
+  7 data<2>                          29 roma<19>                      
+  8 data<3>                          30 roma<20>                      
+  9 TDI                              31 roma<21>                      
+ 10 TMS                              32 addr<12>                      
+ 11 TCK                              33 TIE                           
+ 12 TIE                              34 TIE                           
+ 13 data<4>                          35 VCC                           
+ 14 data<5>                          36 roma<22>                      
+ 15 VCC                              37 rama<16>                      
+ 16 data<6>                          38 rama<15>                      
+ 17 GND                              39 rama<14>                      
+ 18 data<7>                          40 rama<13>                      
+ 19 rst                              41 wr                            
+ 20 ramsel                           42 cs                            
+ 21 roma<14>                         43 TIE                           
+ 22 roma<15>                         44 rd                            
+
+
+Legend :  NC  = Not Connected, unbonded pin
+         PGND = Unused I/O configured as additional Ground pin
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc9536-10-VQ44
+Optimization Method                         : SPEED
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+FASTConnect/UIM optimzation                 : ON
+Local Feedback                              : ON
+Pin Feedback                                : ON
+Input Limit                                 : 36
+Pterm Limit                                 : 25

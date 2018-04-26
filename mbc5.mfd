@@ -1,0 +1,330 @@
+MDF Database:  version 1.0
+MDF_INFO | mbc5 | XC9536-10-VQ44
+MACROCELL | 1 | 15 | ramsel_OBUF
+ATTRIBUTES | 396034 | 0
+OUTPUTMC | 1 | 1 | 16
+INPUTS | 10 | cs  | wr  | ramen  | addr<15>  | addr<14>  | addr<13>  | rd  | romb_0  | addr<12>  | data<0>
+INPUTMC | 2 | 1 | 17 | 1 | 16
+INPUTP | 8 | 4 | 3 | 9 | 8 | 7 | 6 | 38 | 11
+EXPORTS | 1 | 1 | 16
+EQ | 6 | 
+   !ramsel = !cs & !wr & ramen & addr<15> & !addr<14> & 
+	addr<13>
+	# !cs & ramen & addr<15> & !addr<14> & addr<13> & 
+	!rd;
+    ramsel_OBUF.EXP  =  !cs & romb_0 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & !data<0>
+
+MACROCELL | 0 | 0 | rama_0
+ATTRIBUTES | 4588338 | 0
+INPUTS | 8 | cs  | addr<15>  | addr<14>  | addr<13>  | data<0>  | wr  | rst  | rama<13>.PIN
+INPUTP | 8 | 4 | 9 | 8 | 7 | 11 | 3 | 25 | 2
+EQ | 7 | 
+   rama<13>.T = cs & rama<13>.PIN
+	# !addr<15> & addr<14> & !addr<13> & !data<0> & 
+	rama<13>.PIN
+	# !cs & !addr<15> & addr<14> & !addr<13> & data<0> & 
+	!rama<13>.PIN;
+   rama<13>.CLK = !wr;
+   rama<13>.AR = !rst;
+
+MACROCELL | 1 | 0 | rama_1
+ATTRIBUTES | 4588338 | 0
+INPUTS | 8 | cs  | addr<15>  | addr<14>  | addr<13>  | data<1>  | wr  | rst  | rama<14>.PIN
+INPUTP | 8 | 4 | 9 | 8 | 7 | 12 | 3 | 25 | 1
+EQ | 7 | 
+   rama<14>.T = cs & rama<14>.PIN
+	# !addr<15> & addr<14> & !addr<13> & !data<1> & 
+	rama<14>.PIN
+	# !cs & !addr<15> & addr<14> & !addr<13> & data<1> & 
+	!rama<14>.PIN;
+   rama<14>.CLK = !wr;
+   rama<14>.AR = !rst;
+
+MACROCELL | 1 | 1 | rama_2
+ATTRIBUTES | 4588338 | 0
+INPUTS | 8 | cs  | data<2>  | addr<15>  | addr<14>  | addr<13>  | wr  | rst  | rama<15>.PIN
+INPUTP | 8 | 4 | 13 | 9 | 8 | 7 | 3 | 25 | 44
+EQ | 7 | 
+   rama<15>.T = cs & rama<15>.PIN
+	# !data<2> & !addr<15> & addr<14> & !addr<13> & 
+	rama<15>.PIN
+	# data<2> & !cs & !addr<15> & addr<14> & !addr<13> & 
+	!rama<15>.PIN;
+   rama<15>.CLK = !wr;
+   rama<15>.AR = !rst;
+
+MACROCELL | 1 | 3 | rama_3
+ATTRIBUTES | 4588338 | 0
+INPUTS | 8 | cs  | addr<15>  | addr<14>  | addr<13>  | data<3>  | wr  | rst  | rama<16>.PIN
+INPUTP | 8 | 4 | 9 | 8 | 7 | 14 | 3 | 25 | 43
+EQ | 7 | 
+   rama<16>.T = cs & rama<16>.PIN
+	# !addr<15> & addr<14> & !addr<13> & !data<3> & 
+	rama<16>.PIN
+	# !cs & !addr<15> & addr<14> & !addr<13> & data<3> & 
+	!rama<16>.PIN;
+   rama<16>.CLK = !wr;
+   rama<16>.AR = !rst;
+
+MACROCELL | 1 | 17 | ramen
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 2 | 1 | 15 | 1 | 17
+INPUTS | 8 | cs  | ramen  | addr<14>  | addr<13>  | addr<15>  | romb_0.EXP  | wr  | rst
+INPUTMC | 2 | 1 | 17 | 1 | 16
+INPUTP | 6 | 4 | 8 | 7 | 9 | 3 | 25
+IMPORTS | 1 | 1 | 16
+EQ | 9 | 
+   ramen.D = !cs & ramen & addr<15>
+	# !cs & ramen & addr<14>
+	# !cs & ramen & addr<13>
+;Imported pterms FB2_17
+	# !data<6> & !data<5> & !data<4> & !data<2> & !cs & 
+	!addr<15> & !addr<14> & !addr<13> & data<3> & data<1> & 
+	!data<0> & !data<7>;
+   ramen.CLK = !wr;
+   ramen.AR = !rst;
+
+MACROCELL | 1 | 16 | romb_0
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 4 | 1 | 16 | 1 | 14 | 1 | 15 | 1 | 17
+INPUTS | 17 | cs  | romb_0  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | data<0>  | wr  | rst  | data<6>  | data<5>  | data<4>  | data<2>  | data<3>  | data<1>  | data<7>  | ramsel_OBUF.EXP
+INPUTMC | 2 | 1 | 16 | 1 | 15
+INPUTP | 15 | 4 | 9 | 8 | 7 | 38 | 11 | 3 | 25 | 22 | 20 | 19 | 13 | 14 | 12 | 24
+EXPORTS | 1 | 1 | 17
+IMPORTS | 1 | 1 | 15
+EQ | 11 | 
+   romb_0.T = cs & !romb_0
+	# !romb_0 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & data<0>
+;Imported pterms FB2_16
+	# !cs & romb_0 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & !data<0>;
+   romb_0.CLK = !wr;
+   romb_0.AP = !rst;
+    romb_0.EXP  =  !data<6> & !data<5> & !data<4> & !data<2> & !cs & 
+	!addr<15> & !addr<14> & !addr<13> & data<3> & data<1> & 
+	!data<0> & !data<7>
+
+MACROCELL | 1 | 6 | romb_1
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 1 | 6 | 1 | 13
+INPUTS | 9 | cs  | romb_1  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | data<1>  | wr  | rst
+INPUTMC | 1 | 1 | 6
+INPUTP | 8 | 4 | 9 | 8 | 7 | 38 | 12 | 3 | 25
+EQ | 7 | 
+   romb_1.T = cs & romb_1
+	# romb_1 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & !data<1>
+	# !cs & !romb_1 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & data<1>;
+   romb_1.CLK = !wr;
+   romb_1.AR = !rst;
+
+MACROCELL | 0 | 17 | romb_2
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 17 | 1 | 12
+INPUTS | 9 | cs  | romb_2  | data<2>  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | wr  | rst
+INPUTMC | 1 | 0 | 17
+INPUTP | 8 | 4 | 13 | 9 | 8 | 7 | 38 | 3 | 25
+EQ | 7 | 
+   romb_2.T = cs & romb_2
+	# !data<2> & romb_2 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>
+	# data<2> & !cs & !romb_2 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>;
+   romb_2.CLK = !wr;
+   romb_2.AR = !rst;
+
+MACROCELL | 0 | 16 | romb_3
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 16 | 1 | 11
+INPUTS | 9 | cs  | romb_3  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | data<3>  | wr  | rst
+INPUTMC | 1 | 0 | 16
+INPUTP | 8 | 4 | 9 | 8 | 7 | 38 | 14 | 3 | 25
+EQ | 7 | 
+   romb_3.T = cs & romb_3
+	# romb_3 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & !data<3>
+	# !cs & !romb_3 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & data<3>;
+   romb_3.CLK = !wr;
+   romb_3.AR = !rst;
+
+MACROCELL | 0 | 15 | romb_4
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 15 | 1 | 10
+INPUTS | 9 | cs  | romb_4  | data<4>  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | wr  | rst
+INPUTMC | 1 | 0 | 15
+INPUTP | 8 | 4 | 19 | 9 | 8 | 7 | 38 | 3 | 25
+EQ | 7 | 
+   romb_4.T = cs & romb_4
+	# !data<4> & romb_4 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>
+	# data<4> & !cs & !romb_4 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>;
+   romb_4.CLK = !wr;
+   romb_4.AR = !rst;
+
+MACROCELL | 0 | 14 | romb_5
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 14 | 1 | 9
+INPUTS | 9 | cs  | romb_5  | data<5>  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | wr  | rst
+INPUTMC | 1 | 0 | 14
+INPUTP | 8 | 4 | 20 | 9 | 8 | 7 | 38 | 3 | 25
+EQ | 7 | 
+   romb_5.T = cs & romb_5
+	# !data<5> & romb_5 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>
+	# data<5> & !cs & !romb_5 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>;
+   romb_5.CLK = !wr;
+   romb_5.AR = !rst;
+
+MACROCELL | 0 | 13 | romb_6
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 13 | 1 | 8
+INPUTS | 9 | cs  | romb_6  | data<6>  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | wr  | rst
+INPUTMC | 1 | 0 | 13
+INPUTP | 8 | 4 | 22 | 9 | 8 | 7 | 38 | 3 | 25
+EQ | 7 | 
+   romb_6.T = cs & romb_6
+	# !data<6> & romb_6 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>
+	# data<6> & !cs & !romb_6 & !addr<15> & !addr<14> & 
+	addr<13> & !addr<12>;
+   romb_6.CLK = !wr;
+   romb_6.AR = !rst;
+
+MACROCELL | 0 | 12 | romb_7
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 12 | 1 | 7
+INPUTS | 9 | cs  | romb_7  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | data<7>  | wr  | rst
+INPUTMC | 1 | 0 | 12
+INPUTP | 8 | 4 | 9 | 8 | 7 | 38 | 24 | 3 | 25
+EQ | 7 | 
+   romb_7.T = cs & romb_7
+	# romb_7 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & !data<7>
+	# !cs & !romb_7 & !addr<15> & !addr<14> & addr<13> & 
+	!addr<12> & data<7>;
+   romb_7.CLK = !wr;
+   romb_7.AR = !rst;
+
+MACROCELL | 0 | 11 | romb_8
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 0 | 11 | 1 | 2
+INPUTS | 9 | cs  | romb_8  | addr<15>  | addr<14>  | addr<13>  | addr<12>  | data<0>  | wr  | rst
+INPUTMC | 1 | 0 | 11
+INPUTP | 8 | 4 | 9 | 8 | 7 | 38 | 11 | 3 | 25
+EQ | 7 | 
+   romb_8.T = cs & romb_8
+	# romb_8 & !addr<15> & !addr<14> & addr<13> & 
+	addr<12> & !data<0>
+	# !cs & !romb_8 & !addr<15> & !addr<14> & addr<13> & 
+	addr<12> & data<0>;
+   romb_8.CLK = !wr;
+   romb_8.AR = !rst;
+
+MACROCELL | 1 | 14 | roma_14_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_0  | addr<14>
+INPUTMC | 1 | 1 | 16
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<14> = romb_0 & addr<14>;
+
+MACROCELL | 1 | 13 | roma_15_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_1  | addr<14>
+INPUTMC | 1 | 1 | 6
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<15> = romb_1 & addr<14>;
+
+MACROCELL | 1 | 12 | roma_16_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_2  | addr<14>
+INPUTMC | 1 | 0 | 17
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<16> = romb_2 & addr<14>;
+
+MACROCELL | 1 | 11 | roma_17_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_3  | addr<14>
+INPUTMC | 1 | 0 | 16
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<17> = romb_3 & addr<14>;
+
+MACROCELL | 1 | 10 | roma_18_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_4  | addr<14>
+INPUTMC | 1 | 0 | 15
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<18> = romb_4 & addr<14>;
+
+MACROCELL | 1 | 9 | roma_19_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_5  | addr<14>
+INPUTMC | 1 | 0 | 14
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<19> = romb_5 & addr<14>;
+
+MACROCELL | 1 | 8 | roma_20_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_6  | addr<14>
+INPUTMC | 1 | 0 | 13
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<20> = romb_6 & addr<14>;
+
+MACROCELL | 1 | 7 | roma_21_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_7  | addr<14>
+INPUTMC | 1 | 0 | 12
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<21> = romb_7 & addr<14>;
+
+MACROCELL | 1 | 2 | roma_22_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 2 | romb_8  | addr<14>
+INPUTMC | 1 | 0 | 11
+INPUTP | 1 | 8
+EQ | 1 | 
+   roma<22> = romb_8 & addr<14>;
+
+PIN | data<6> | 64 | 0 | N/A | 22 | 2 | 1 | 16 | 0 | 13
+PIN | data<5> | 64 | 0 | N/A | 20 | 2 | 1 | 16 | 0 | 14
+PIN | data<4> | 64 | 0 | N/A | 19 | 2 | 1 | 16 | 0 | 15
+PIN | data<2> | 64 | 0 | N/A | 13 | 3 | 1 | 1 | 1 | 16 | 0 | 17
+PIN | cs | 64 | 0 | N/A | 4 | 15 | 1 | 15 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 3 | 1 | 17 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11
+PIN | addr<14> | 64 | 0 | N/A | 8 | 24 | 1 | 15 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 3 | 1 | 17 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 7 | 1 | 2
+PIN | addr<13> | 64 | 0 | N/A | 7 | 15 | 1 | 15 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 3 | 1 | 17 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11
+PIN | addr<15> | 64 | 0 | N/A | 9 | 15 | 1 | 15 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 3 | 1 | 17 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11
+PIN | wr | 64 | 0 | N/A | 3 | 15 | 1 | 15 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 3 | 1 | 17 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11
+PIN | rd | 64 | 0 | N/A | 6 | 1 | 1 | 15
+PIN | rst | 64 | 0 | N/A | 25 | 14 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 3 | 1 | 17 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11
+PIN | data<0> | 64 | 0 | N/A | 11 | 4 | 0 | 0 | 1 | 15 | 1 | 16 | 0 | 11
+PIN | data<1> | 64 | 0 | N/A | 12 | 3 | 1 | 0 | 1 | 16 | 1 | 6
+PIN | data<3> | 64 | 0 | N/A | 14 | 3 | 1 | 3 | 1 | 16 | 0 | 16
+PIN | data<7> | 64 | 0 | N/A | 24 | 2 | 1 | 16 | 0 | 12
+PIN | addr<12> | 64 | 0 | N/A | 38 | 10 | 1 | 16 | 1 | 6 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 1 | 15
+PIN | ramsel | 536871040 | 0 | N/A | 26
+PIN | roma<14> | 536871040 | 0 | N/A | 27
+PIN | roma<15> | 536871040 | 0 | N/A | 28
+PIN | roma<16> | 536871040 | 0 | N/A | 29
+PIN | roma<17> | 536871040 | 0 | N/A | 33
+PIN | roma<18> | 536871040 | 0 | N/A | 34
+PIN | roma<19> | 536871040 | 0 | N/A | 35
+PIN | roma<20> | 536871040 | 0 | N/A | 36
+PIN | roma<21> | 536871040 | 0 | N/A | 37
+PIN | roma<22> | 536871040 | 0 | N/A | 42
+PIN | rama<13> | 536870976 | 0 | N/A | 2 | 1 | 0 | 0
+PIN | rama<14> | 536870976 | 0 | N/A | 1 | 1 | 1 | 0
+PIN | rama<15> | 536870976 | 0 | N/A | 44 | 1 | 1 | 1
+PIN | rama<16> | 536870976 | 0 | N/A | 43 | 1 | 1 | 3

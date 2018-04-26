@@ -1,0 +1,1570 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500 | 953644VQ | XC9536-10-VQ44
+
+DEVICE | 9536 | 953644VQ | 
+
+NETWORK | mbc5 | 0 | 0 | 201342983
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_6_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<6> | 2696 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_6_IBUF | 2638 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_6_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_5_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<5> | 2697 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_5_IBUF | 2639 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_5_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_4_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<4> | 2698 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_4_IBUF | 2640 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_4_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_2_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<2> | 2699 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | cs_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | cs | 2700 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | addr_14_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | addr<14> | 2704 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | addr_13_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | addr<13> | 2705 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | addr_15_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | addr<15> | 2703 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | wr_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | wr | 2702 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | rd_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rd | 2711 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rd_IBUF | 2672 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rd_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | Inv+OptxMapped | ramsel_OBUF | mbc5_COPY_0_COPY_0 | 2155872512 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ramen | 2654 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramen.Q | ramen | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rd_IBUF | 2672 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rd_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | ramsel_OBUF | 2643 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramsel_OBUF.Q | ramsel_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ramsel_OBUF.UIM | 2840 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramsel_OBUF.Q | ramsel_OBUF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | ramsel_OBUF.EXP | 2838 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramsel_OBUF.EXP | ramsel_OBUF | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | ramsel_OBUF.SI | ramsel_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ramen | 2654 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramen.Q | ramen | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rd_IBUF | 2672 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rd_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ramsel_OBUF.D1 | 2713 | ? | 0 | 4096 | ramsel_OBUF | NULL | NULL | ramsel_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ramsel_OBUF.D2 | 2714 | ? | 0 | 4096 | ramsel_OBUF | NULL | NULL | ramsel_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_FALSE | cs_IBUF | IV_FALSE | wr_IBUF | IV_TRUE | ramen | IV_TRUE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF
+SPPTERM | 6 | IV_FALSE | cs_IBUF | IV_TRUE | ramen | IV_TRUE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | rd_IBUF
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | ramsel_OBUF.EXP | 2836 | ? | 0 | 0 | ramsel_OBUF | NULL | NULL | ramsel_OBUF.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 7 | IV_FALSE | cs_IBUF | IV_TRUE | romb_0 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_FALSE | data_0_IBUF
+
+SRFF_INSTANCE | ramsel_OBUF.REG | ramsel_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ramsel_OBUF.D | 2712 | ? | 0 | 0 | ramsel_OBUF | NULL | NULL | ramsel_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ramsel_OBUF.Q | 2715 | ? | 0 | 0 | ramsel_OBUF | NULL | NULL | ramsel_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | rst_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rst | 2701 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_0_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<0> | 2709 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped+OeInv | rama_0 | mbc5_COPY_0_COPY_0 | 2290095104 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<13>_PIN_BUF_ | 2841 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<13> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | rama_0$Q | 2646 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_0.Q | rama_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | rama_0 | 2647 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_0.Q | rama_0 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | rama_0.SI | rama_0 | 0 | 8 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<13>_PIN_BUF_ | 2841 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<13> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | rama_0.D1 | 2717 | ? | 0 | 4096 | rama_0 | NULL | NULL | rama_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | rama_0.D2 | 2718 | ? | 0 | 4096 | rama_0 | NULL | NULL | rama_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | rama<13>_PIN_BUF_
+SPPTERM | 5 | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_FALSE | data_0_IBUF | IV_TRUE | rama<13>_PIN_BUF_
+SPPTERM | 6 | IV_FALSE | cs_IBUF | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_TRUE | data_0_IBUF | IV_FALSE | rama<13>_PIN_BUF_
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | rama_0.CLKF | 2719 | ? | 0 | 4096 | rama_0 | NULL | NULL | rama_0.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | rama_0.RSTF | 2720 | ? | 0 | 4096 | rama_0 | NULL | NULL | rama_0.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | rama_0.REG | rama_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | rama_0.D | 2716 | ? | 0 | 0 | rama_0 | NULL | NULL | rama_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | rama_0.CLKF | 2719 | ? | 0 | 4096 | rama_0 | NULL | NULL | rama_0.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | rama_0.RSTF | 2720 | ? | 0 | 4096 | rama_0 | NULL | NULL | rama_0.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | rama_0.Q | 2721 | ? | 0 | 0 | rama_0 | NULL | NULL | rama_0.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_1_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<1> | 2708 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped+OeInv | rama_1 | mbc5_COPY_0_COPY_0 | 2290095104 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<14>_PIN_BUF_ | 2842 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<14> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | rama_1$Q | 2648 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_1.Q | rama_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | rama_1 | 2649 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_1.Q | rama_1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | rama_1.SI | rama_1 | 0 | 8 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<14>_PIN_BUF_ | 2842 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<14> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | rama_1.D1 | 2723 | ? | 0 | 4096 | rama_1 | NULL | NULL | rama_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | rama_1.D2 | 2724 | ? | 0 | 4096 | rama_1 | NULL | NULL | rama_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | rama<14>_PIN_BUF_
+SPPTERM | 5 | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_FALSE | data_1_IBUF | IV_TRUE | rama<14>_PIN_BUF_
+SPPTERM | 6 | IV_FALSE | cs_IBUF | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_TRUE | data_1_IBUF | IV_FALSE | rama<14>_PIN_BUF_
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | rama_1.CLKF | 2725 | ? | 0 | 4096 | rama_1 | NULL | NULL | rama_1.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | rama_1.RSTF | 2726 | ? | 0 | 4096 | rama_1 | NULL | NULL | rama_1.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | rama_1.REG | rama_1 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | rama_1.D | 2722 | ? | 0 | 0 | rama_1 | NULL | NULL | rama_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | rama_1.CLKF | 2725 | ? | 0 | 4096 | rama_1 | NULL | NULL | rama_1.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | rama_1.RSTF | 2726 | ? | 0 | 4096 | rama_1 | NULL | NULL | rama_1.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | rama_1.Q | 2727 | ? | 0 | 0 | rama_1 | NULL | NULL | rama_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped+OeInv | rama_2 | mbc5_COPY_0_COPY_0 | 2290095104 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<15>_PIN_BUF_ | 2843 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<15> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | rama_2$Q | 2650 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_2.Q | rama_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | rama_2 | 2651 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_2.Q | rama_2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | rama_2.SI | rama_2 | 0 | 8 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<15>_PIN_BUF_ | 2843 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<15> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | rama_2.D1 | 2729 | ? | 0 | 4096 | rama_2 | NULL | NULL | rama_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | rama_2.D2 | 2730 | ? | 0 | 4096 | rama_2 | NULL | NULL | rama_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | rama<15>_PIN_BUF_
+SPPTERM | 5 | IV_FALSE | data_2_IBUF | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_TRUE | rama<15>_PIN_BUF_
+SPPTERM | 6 | IV_TRUE | data_2_IBUF | IV_FALSE | cs_IBUF | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_FALSE | rama<15>_PIN_BUF_
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | rama_2.CLKF | 2731 | ? | 0 | 4096 | rama_2 | NULL | NULL | rama_2.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | rama_2.RSTF | 2732 | ? | 0 | 4096 | rama_2 | NULL | NULL | rama_2.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | rama_2.REG | rama_2 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | rama_2.D | 2728 | ? | 0 | 0 | rama_2 | NULL | NULL | rama_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | rama_2.CLKF | 2731 | ? | 0 | 4096 | rama_2 | NULL | NULL | rama_2.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | rama_2.RSTF | 2732 | ? | 0 | 4096 | rama_2 | NULL | NULL | rama_2.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | rama_2.Q | 2733 | ? | 0 | 0 | rama_2 | NULL | NULL | rama_2.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_3_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<3> | 2707 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped+OeInv | rama_3 | mbc5_COPY_0_COPY_0 | 2290095104 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<16>_PIN_BUF_ | 2844 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<16> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | rama_3$Q | 2652 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_3.Q | rama_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | rama_3 | 2653 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_3.Q | rama_3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | rama_3.SI | rama_3 | 0 | 8 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rama<16>_PIN_BUF_ | 2844 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<16> | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | rama_3.D1 | 2735 | ? | 0 | 4096 | rama_3 | NULL | NULL | rama_3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | rama_3.D2 | 2736 | ? | 0 | 4096 | rama_3 | NULL | NULL | rama_3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | rama<16>_PIN_BUF_
+SPPTERM | 5 | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_FALSE | data_3_IBUF | IV_TRUE | rama<16>_PIN_BUF_
+SPPTERM | 6 | IV_FALSE | cs_IBUF | IV_FALSE | addr_15_IBUF | IV_TRUE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_TRUE | data_3_IBUF | IV_FALSE | rama<16>_PIN_BUF_
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | rama_3.CLKF | 2737 | ? | 0 | 4096 | rama_3 | NULL | NULL | rama_3.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | rama_3.RSTF | 2738 | ? | 0 | 4096 | rama_3 | NULL | NULL | rama_3.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | rama_3.REG | rama_3 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | rama_3.D | 2734 | ? | 0 | 0 | rama_3 | NULL | NULL | rama_3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | rama_3.CLKF | 2737 | ? | 0 | 4096 | rama_3 | NULL | NULL | rama_3.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | rama_3.RSTF | 2738 | ? | 0 | 4096 | rama_3 | NULL | NULL | rama_3.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | rama_3.Q | 2739 | ? | 0 | 0 | rama_3 | NULL | NULL | rama_3.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | data_7_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | data<7> | 2710 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | data_7_IBUF | 2671 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_7_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | ramen | mbc5_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ramen | 2654 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramen.Q | ramen | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0.EXP | 2839 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.EXP | romb_0 | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | ramen | 2654 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramen.Q | ramen | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | ramen.SI | ramen | 0 | 8 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ramen | 2654 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramen.Q | ramen | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0.EXP | 2839 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.EXP | romb_0 | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | ramen.D1 | 2741 | ? | 0 | 4096 | ramen | NULL | NULL | ramen.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | ramen.D2 | 2742 | ? | 0 | 4096 | ramen | NULL | NULL | ramen.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | romb_0.EXP
+SPPTERM | 3 | IV_FALSE | cs_IBUF | IV_TRUE | ramen | IV_TRUE | addr_15_IBUF
+SPPTERM | 3 | IV_FALSE | cs_IBUF | IV_TRUE | ramen | IV_TRUE | addr_14_IBUF
+SPPTERM | 3 | IV_FALSE | cs_IBUF | IV_TRUE | ramen | IV_TRUE | addr_13_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | ramen.CLKF | 2743 | ? | 0 | 4096 | ramen | NULL | NULL | ramen.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | ramen.RSTF | 2744 | ? | 0 | 4096 | ramen | NULL | NULL | ramen.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | ramen.REG | ramen | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | ramen.D | 2740 | ? | 0 | 0 | ramen | NULL | NULL | ramen.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | ramen.CLKF | 2743 | ? | 0 | 4096 | ramen | NULL | NULL | ramen.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | ramen.RSTF | 2744 | ? | 0 | 4096 | ramen | NULL | NULL | ramen.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | ramen.Q | 2745 | ? | 0 | 0 | ramen | NULL | NULL | ramen.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | addr_12_IBUF | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | addr<12> | 2706 | PI | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_0 | mbc5_COPY_0_COPY_0 | 2155877376 | 17 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_6_IBUF | 2638 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_5_IBUF | 2639 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_4_IBUF | 2640 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_7_IBUF | 2671 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ramsel_OBUF.EXP | 2838 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramsel_OBUF.EXP | ramsel_OBUF | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | romb_0.EXP | 2839 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.EXP | romb_0 | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | romb_0.SI | romb_0 | 0 | 17 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_6_IBUF | 2638 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_5_IBUF | 2639 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_4_IBUF | 2640 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_7_IBUF | 2671 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ramsel_OBUF.EXP | 2838 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramsel_OBUF.EXP | ramsel_OBUF | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_0.D1 | 2747 | ? | 0 | 4096 | romb_0 | NULL | NULL | romb_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_0.D2 | 2748 | ? | 0 | 4096 | romb_0 | NULL | NULL | romb_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | ramsel_OBUF.EXP
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_FALSE | romb_0
+SPPTERM | 6 | IV_FALSE | romb_0 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_TRUE | data_0_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_0.CLKF | 2749 | ? | 0 | 4096 | romb_0 | NULL | NULL | romb_0.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | romb_0.SETF | 2750 | ? | 0 | 4096 | romb_0 | NULL | NULL | romb_0.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | romb_0.EXP | 2837 | ? | 0 | 0 | romb_0 | NULL | NULL | romb_0.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 12 | IV_FALSE | data_6_IBUF | IV_FALSE | data_5_IBUF | IV_FALSE | data_4_IBUF | IV_FALSE | data_2_IBUF | IV_FALSE | cs_IBUF | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_FALSE | addr_13_IBUF | IV_TRUE | data_3_IBUF | IV_TRUE | data_1_IBUF | IV_FALSE | data_0_IBUF | IV_FALSE | data_7_IBUF
+
+SRFF_INSTANCE | romb_0.REG | romb_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_0.D | 2746 | ? | 0 | 0 | romb_0 | NULL | NULL | romb_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_0.CLKF | 2749 | ? | 0 | 4096 | romb_0 | NULL | NULL | romb_0.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | romb_0.SETF | 2750 | ? | 0 | 4096 | romb_0 | NULL | NULL | romb_0.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_0.Q | 2751 | ? | 0 | 0 | romb_0 | NULL | NULL | romb_0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_1 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_1 | 2656 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_1.Q | romb_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_1 | 2656 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_1.Q | romb_1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_1.SI | romb_1 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_1 | 2656 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_1.Q | romb_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_1_IBUF | 2669 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_1.D1 | 2753 | ? | 0 | 4096 | romb_1 | NULL | NULL | romb_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_1.D2 | 2754 | ? | 0 | 4096 | romb_1 | NULL | NULL | romb_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_1
+SPPTERM | 6 | IV_TRUE | romb_1 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_FALSE | data_1_IBUF
+SPPTERM | 7 | IV_FALSE | cs_IBUF | IV_FALSE | romb_1 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_TRUE | data_1_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_1.CLKF | 2755 | ? | 0 | 4096 | romb_1 | NULL | NULL | romb_1.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_1.RSTF | 2756 | ? | 0 | 4096 | romb_1 | NULL | NULL | romb_1.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_1.REG | romb_1 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_1.D | 2752 | ? | 0 | 0 | romb_1 | NULL | NULL | romb_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_1.CLKF | 2755 | ? | 0 | 4096 | romb_1 | NULL | NULL | romb_1.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_1.RSTF | 2756 | ? | 0 | 4096 | romb_1 | NULL | NULL | romb_1.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_1.Q | 2757 | ? | 0 | 0 | romb_1 | NULL | NULL | romb_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_2 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_2 | 2657 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_2.Q | romb_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_2 | 2657 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_2.Q | romb_2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_2.SI | romb_2 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_2 | 2657 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_2.Q | romb_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_2_IBUF | 2641 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_2.D1 | 2759 | ? | 0 | 4096 | romb_2 | NULL | NULL | romb_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_2.D2 | 2760 | ? | 0 | 4096 | romb_2 | NULL | NULL | romb_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_2
+SPPTERM | 6 | IV_FALSE | data_2_IBUF | IV_TRUE | romb_2 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+SPPTERM | 7 | IV_TRUE | data_2_IBUF | IV_FALSE | cs_IBUF | IV_FALSE | romb_2 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_2.CLKF | 2761 | ? | 0 | 4096 | romb_2 | NULL | NULL | romb_2.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_2.RSTF | 2762 | ? | 0 | 4096 | romb_2 | NULL | NULL | romb_2.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_2.REG | romb_2 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_2.D | 2758 | ? | 0 | 0 | romb_2 | NULL | NULL | romb_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_2.CLKF | 2761 | ? | 0 | 4096 | romb_2 | NULL | NULL | romb_2.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_2.RSTF | 2762 | ? | 0 | 4096 | romb_2 | NULL | NULL | romb_2.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_2.Q | 2763 | ? | 0 | 0 | romb_2 | NULL | NULL | romb_2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_3 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_3 | 2658 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_3.Q | romb_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_3 | 2658 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_3.Q | romb_3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_3.SI | romb_3 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_3 | 2658 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_3.Q | romb_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_3_IBUF | 2668 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_3.D1 | 2765 | ? | 0 | 4096 | romb_3 | NULL | NULL | romb_3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_3.D2 | 2766 | ? | 0 | 4096 | romb_3 | NULL | NULL | romb_3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_3
+SPPTERM | 6 | IV_TRUE | romb_3 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_FALSE | data_3_IBUF
+SPPTERM | 7 | IV_FALSE | cs_IBUF | IV_FALSE | romb_3 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_TRUE | data_3_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_3.CLKF | 2767 | ? | 0 | 4096 | romb_3 | NULL | NULL | romb_3.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_3.RSTF | 2768 | ? | 0 | 4096 | romb_3 | NULL | NULL | romb_3.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_3.REG | romb_3 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_3.D | 2764 | ? | 0 | 0 | romb_3 | NULL | NULL | romb_3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_3.CLKF | 2767 | ? | 0 | 4096 | romb_3 | NULL | NULL | romb_3.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_3.RSTF | 2768 | ? | 0 | 4096 | romb_3 | NULL | NULL | romb_3.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_3.Q | 2769 | ? | 0 | 0 | romb_3 | NULL | NULL | romb_3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_4 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_4 | 2659 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_4.Q | romb_4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_4_IBUF | 2640 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_4 | 2659 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_4.Q | romb_4 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_4.SI | romb_4 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_4 | 2659 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_4.Q | romb_4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_4_IBUF | 2640 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_4.D1 | 2771 | ? | 0 | 4096 | romb_4 | NULL | NULL | romb_4.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_4.D2 | 2772 | ? | 0 | 4096 | romb_4 | NULL | NULL | romb_4.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_4
+SPPTERM | 6 | IV_FALSE | data_4_IBUF | IV_TRUE | romb_4 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+SPPTERM | 7 | IV_TRUE | data_4_IBUF | IV_FALSE | cs_IBUF | IV_FALSE | romb_4 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_4.CLKF | 2773 | ? | 0 | 4096 | romb_4 | NULL | NULL | romb_4.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_4.RSTF | 2774 | ? | 0 | 4096 | romb_4 | NULL | NULL | romb_4.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_4.REG | romb_4 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_4.D | 2770 | ? | 0 | 0 | romb_4 | NULL | NULL | romb_4.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_4.CLKF | 2773 | ? | 0 | 4096 | romb_4 | NULL | NULL | romb_4.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_4.RSTF | 2774 | ? | 0 | 4096 | romb_4 | NULL | NULL | romb_4.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_4.Q | 2775 | ? | 0 | 0 | romb_4 | NULL | NULL | romb_4.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_5 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_5 | 2660 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_5.Q | romb_5 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_5_IBUF | 2639 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_5 | 2660 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_5.Q | romb_5 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_5.SI | romb_5 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_5 | 2660 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_5.Q | romb_5 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_5_IBUF | 2639 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_5.D1 | 2777 | ? | 0 | 4096 | romb_5 | NULL | NULL | romb_5.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_5.D2 | 2778 | ? | 0 | 4096 | romb_5 | NULL | NULL | romb_5.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_5
+SPPTERM | 6 | IV_FALSE | data_5_IBUF | IV_TRUE | romb_5 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+SPPTERM | 7 | IV_TRUE | data_5_IBUF | IV_FALSE | cs_IBUF | IV_FALSE | romb_5 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_5.CLKF | 2779 | ? | 0 | 4096 | romb_5 | NULL | NULL | romb_5.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_5.RSTF | 2780 | ? | 0 | 4096 | romb_5 | NULL | NULL | romb_5.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_5.REG | romb_5 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_5.D | 2776 | ? | 0 | 0 | romb_5 | NULL | NULL | romb_5.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_5.CLKF | 2779 | ? | 0 | 4096 | romb_5 | NULL | NULL | romb_5.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_5.RSTF | 2780 | ? | 0 | 4096 | romb_5 | NULL | NULL | romb_5.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_5.Q | 2781 | ? | 0 | 0 | romb_5 | NULL | NULL | romb_5.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_6 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_6 | 2661 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_6.Q | romb_6 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_6_IBUF | 2638 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_6 | 2661 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_6.Q | romb_6 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_6.SI | romb_6 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_6 | 2661 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_6.Q | romb_6 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_6_IBUF | 2638 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_6.D1 | 2783 | ? | 0 | 4096 | romb_6 | NULL | NULL | romb_6.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_6.D2 | 2784 | ? | 0 | 4096 | romb_6 | NULL | NULL | romb_6.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_6
+SPPTERM | 6 | IV_FALSE | data_6_IBUF | IV_TRUE | romb_6 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+SPPTERM | 7 | IV_TRUE | data_6_IBUF | IV_FALSE | cs_IBUF | IV_FALSE | romb_6 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_6.CLKF | 2785 | ? | 0 | 4096 | romb_6 | NULL | NULL | romb_6.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_6.RSTF | 2786 | ? | 0 | 4096 | romb_6 | NULL | NULL | romb_6.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_6.REG | romb_6 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_6.D | 2782 | ? | 0 | 0 | romb_6 | NULL | NULL | romb_6.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_6.CLKF | 2785 | ? | 0 | 4096 | romb_6 | NULL | NULL | romb_6.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_6.RSTF | 2786 | ? | 0 | 4096 | romb_6 | NULL | NULL | romb_6.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_6.Q | 2787 | ? | 0 | 0 | romb_6 | NULL | NULL | romb_6.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_7 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_7 | 2662 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_7.Q | romb_7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_7_IBUF | 2671 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_7 | 2662 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_7.Q | romb_7 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_7.SI | romb_7 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_7 | 2662 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_7.Q | romb_7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_7_IBUF | 2671 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_7.D1 | 2789 | ? | 0 | 4096 | romb_7 | NULL | NULL | romb_7.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_7.D2 | 2790 | ? | 0 | 4096 | romb_7 | NULL | NULL | romb_7.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_7
+SPPTERM | 6 | IV_TRUE | romb_7 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_FALSE | data_7_IBUF
+SPPTERM | 7 | IV_FALSE | cs_IBUF | IV_FALSE | romb_7 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_FALSE | addr_12_IBUF | IV_TRUE | data_7_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_7.CLKF | 2791 | ? | 0 | 4096 | romb_7 | NULL | NULL | romb_7.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_7.RSTF | 2792 | ? | 0 | 4096 | romb_7 | NULL | NULL | romb_7.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_7.REG | romb_7 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_7.D | 2788 | ? | 0 | 0 | romb_7 | NULL | NULL | romb_7.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_7.CLKF | 2791 | ? | 0 | 4096 | romb_7 | NULL | NULL | romb_7.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_7.RSTF | 2792 | ? | 0 | 4096 | romb_7 | NULL | NULL | romb_7.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_7.Q | 2793 | ? | 0 | 0 | romb_7 | NULL | NULL | romb_7.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | romb_8 | mbc5_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_8 | 2663 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_8.Q | romb_8 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | romb_8 | 2663 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_8.Q | romb_8 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | romb_8.SI | romb_8 | 0 | 9 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cs_IBUF | 2642 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | cs_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_8 | 2663 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_8.Q | romb_8 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_15_IBUF | 2664 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_15_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_13_IBUF | 2666 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_13_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_12_IBUF | 2667 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_12_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | data_0_IBUF | 2670 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | wr_IBUF | 2645 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rst_IBUF | 2644 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | romb_8.D1 | 2795 | ? | 0 | 4096 | romb_8 | NULL | NULL | romb_8.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | romb_8.D2 | 2796 | ? | 0 | 4096 | romb_8 | NULL | NULL | romb_8.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cs_IBUF | IV_TRUE | romb_8
+SPPTERM | 6 | IV_TRUE | romb_8 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_TRUE | addr_12_IBUF | IV_FALSE | data_0_IBUF
+SPPTERM | 7 | IV_FALSE | cs_IBUF | IV_FALSE | romb_8 | IV_FALSE | addr_15_IBUF | IV_FALSE | addr_14_IBUF | IV_TRUE | addr_13_IBUF | IV_TRUE | addr_12_IBUF | IV_TRUE | data_0_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | romb_8.CLKF | 2797 | ? | 0 | 4096 | romb_8 | NULL | NULL | romb_8.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | romb_8.RSTF | 2798 | ? | 0 | 4096 | romb_8 | NULL | NULL | romb_8.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+
+SRFF_INSTANCE | romb_8.REG | romb_8 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | romb_8.D | 2794 | ? | 0 | 0 | romb_8 | NULL | NULL | romb_8.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | romb_8.CLKF | 2797 | ? | 0 | 4096 | romb_8 | NULL | NULL | romb_8.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_FALSE | wr_IBUF
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | romb_8.RSTF | 2798 | ? | 0 | 4096 | romb_8 | NULL | NULL | romb_8.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_FALSE | rst_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | romb_8.Q | 2799 | ? | 0 | 0 | romb_8 | NULL | NULL | romb_8.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_14_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_14_OBUF | 2673 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_14_OBUF.Q | roma_14_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_14_OBUF.UIM | 2845 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_14_OBUF.Q | roma_14_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_14_OBUF.SI | roma_14_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_0 | 2655 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_0.Q | romb_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_14_OBUF.D1 | 2801 | ? | 0 | 4096 | roma_14_OBUF | NULL | NULL | roma_14_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_14_OBUF.D2 | 2802 | ? | 0 | 4096 | roma_14_OBUF | NULL | NULL | roma_14_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_0 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_14_OBUF.REG | roma_14_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_14_OBUF.D | 2800 | ? | 0 | 0 | roma_14_OBUF | NULL | NULL | roma_14_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_14_OBUF.Q | 2803 | ? | 0 | 0 | roma_14_OBUF | NULL | NULL | roma_14_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_15_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_1 | 2656 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_1.Q | romb_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_15_OBUF | 2674 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_15_OBUF.Q | roma_15_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_15_OBUF.UIM | 2846 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_15_OBUF.Q | roma_15_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_15_OBUF.SI | roma_15_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_1 | 2656 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_1.Q | romb_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_15_OBUF.D1 | 2805 | ? | 0 | 4096 | roma_15_OBUF | NULL | NULL | roma_15_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_15_OBUF.D2 | 2806 | ? | 0 | 4096 | roma_15_OBUF | NULL | NULL | roma_15_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_1 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_15_OBUF.REG | roma_15_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_15_OBUF.D | 2804 | ? | 0 | 0 | roma_15_OBUF | NULL | NULL | roma_15_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_15_OBUF.Q | 2807 | ? | 0 | 0 | roma_15_OBUF | NULL | NULL | roma_15_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_16_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_2 | 2657 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_2.Q | romb_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_16_OBUF | 2675 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_16_OBUF.Q | roma_16_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_16_OBUF.UIM | 2847 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_16_OBUF.Q | roma_16_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_16_OBUF.SI | roma_16_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_2 | 2657 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_2.Q | romb_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_16_OBUF.D1 | 2809 | ? | 0 | 4096 | roma_16_OBUF | NULL | NULL | roma_16_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_16_OBUF.D2 | 2810 | ? | 0 | 4096 | roma_16_OBUF | NULL | NULL | roma_16_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_2 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_16_OBUF.REG | roma_16_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_16_OBUF.D | 2808 | ? | 0 | 0 | roma_16_OBUF | NULL | NULL | roma_16_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_16_OBUF.Q | 2811 | ? | 0 | 0 | roma_16_OBUF | NULL | NULL | roma_16_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_17_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_3 | 2658 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_3.Q | romb_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_17_OBUF | 2676 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_17_OBUF.Q | roma_17_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_17_OBUF.UIM | 2848 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_17_OBUF.Q | roma_17_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_17_OBUF.SI | roma_17_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_3 | 2658 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_3.Q | romb_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_17_OBUF.D1 | 2813 | ? | 0 | 4096 | roma_17_OBUF | NULL | NULL | roma_17_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_17_OBUF.D2 | 2814 | ? | 0 | 4096 | roma_17_OBUF | NULL | NULL | roma_17_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_3 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_17_OBUF.REG | roma_17_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_17_OBUF.D | 2812 | ? | 0 | 0 | roma_17_OBUF | NULL | NULL | roma_17_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_17_OBUF.Q | 2815 | ? | 0 | 0 | roma_17_OBUF | NULL | NULL | roma_17_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_18_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_4 | 2659 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_4.Q | romb_4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_18_OBUF | 2677 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_18_OBUF.Q | roma_18_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_18_OBUF.UIM | 2849 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_18_OBUF.Q | roma_18_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_18_OBUF.SI | roma_18_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_4 | 2659 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_4.Q | romb_4 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_18_OBUF.D1 | 2817 | ? | 0 | 4096 | roma_18_OBUF | NULL | NULL | roma_18_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_18_OBUF.D2 | 2818 | ? | 0 | 4096 | roma_18_OBUF | NULL | NULL | roma_18_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_4 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_18_OBUF.REG | roma_18_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_18_OBUF.D | 2816 | ? | 0 | 0 | roma_18_OBUF | NULL | NULL | roma_18_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_18_OBUF.Q | 2819 | ? | 0 | 0 | roma_18_OBUF | NULL | NULL | roma_18_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_19_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_5 | 2660 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_5.Q | romb_5 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_19_OBUF | 2678 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_19_OBUF.Q | roma_19_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_19_OBUF.UIM | 2850 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_19_OBUF.Q | roma_19_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_19_OBUF.SI | roma_19_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_5 | 2660 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_5.Q | romb_5 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_19_OBUF.D1 | 2821 | ? | 0 | 4096 | roma_19_OBUF | NULL | NULL | roma_19_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_19_OBUF.D2 | 2822 | ? | 0 | 4096 | roma_19_OBUF | NULL | NULL | roma_19_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_5 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_19_OBUF.REG | roma_19_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_19_OBUF.D | 2820 | ? | 0 | 0 | roma_19_OBUF | NULL | NULL | roma_19_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_19_OBUF.Q | 2823 | ? | 0 | 0 | roma_19_OBUF | NULL | NULL | roma_19_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_20_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_6 | 2661 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_6.Q | romb_6 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_20_OBUF | 2679 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_20_OBUF.Q | roma_20_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_20_OBUF.UIM | 2851 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_20_OBUF.Q | roma_20_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_20_OBUF.SI | roma_20_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_6 | 2661 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_6.Q | romb_6 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_20_OBUF.D1 | 2825 | ? | 0 | 4096 | roma_20_OBUF | NULL | NULL | roma_20_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_20_OBUF.D2 | 2826 | ? | 0 | 4096 | roma_20_OBUF | NULL | NULL | roma_20_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_6 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_20_OBUF.REG | roma_20_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_20_OBUF.D | 2824 | ? | 0 | 0 | roma_20_OBUF | NULL | NULL | roma_20_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_20_OBUF.Q | 2827 | ? | 0 | 0 | roma_20_OBUF | NULL | NULL | roma_20_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_21_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_7 | 2662 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_7.Q | romb_7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_21_OBUF | 2680 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_21_OBUF.Q | roma_21_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_21_OBUF.UIM | 2852 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_21_OBUF.Q | roma_21_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_21_OBUF.SI | roma_21_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_7 | 2662 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_7.Q | romb_7 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_21_OBUF.D1 | 2829 | ? | 0 | 4096 | roma_21_OBUF | NULL | NULL | roma_21_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_21_OBUF.D2 | 2830 | ? | 0 | 4096 | roma_21_OBUF | NULL | NULL | roma_21_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_7 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_21_OBUF.REG | roma_21_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_21_OBUF.D | 2828 | ? | 0 | 0 | roma_21_OBUF | NULL | NULL | roma_21_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_21_OBUF.Q | 2831 | ? | 0 | 0 | roma_21_OBUF | NULL | NULL | roma_21_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | roma_22_OBUF | mbc5_COPY_0_COPY_0 | 2155872256 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_8 | 2663 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_8.Q | romb_8 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | roma_22_OBUF | 2681 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_22_OBUF.Q | roma_22_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | roma_22_OBUF.UIM | 2853 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_22_OBUF.Q | roma_22_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | roma_22_OBUF.SI | roma_22_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | romb_8 | 2663 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | romb_8.Q | romb_8 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr_14_IBUF | 2665 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | addr_14_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | roma_22_OBUF.D1 | 2833 | ? | 0 | 4096 | roma_22_OBUF | NULL | NULL | roma_22_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | roma_22_OBUF.D2 | 2834 | ? | 0 | 4096 | roma_22_OBUF | NULL | NULL | roma_22_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | romb_8 | IV_TRUE | addr_14_IBUF
+
+SRFF_INSTANCE | roma_22_OBUF.REG | roma_22_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | roma_22_OBUF.D | 2832 | ? | 0 | 0 | roma_22_OBUF | NULL | NULL | roma_22_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | roma_22_OBUF.Q | 2835 | ? | 0 | 0 | roma_22_OBUF | NULL | NULL | roma_22_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | ramsel | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | ramsel_OBUF | 2643 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | ramsel_OBUF.Q | ramsel_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | ramsel | 2682 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | ramsel | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | rama<13> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | rama_0$Q | 2646 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_0.Q | rama_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | rama<13> | 2683 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<13> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | rama<14> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | rama_1$Q | 2648 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_1.Q | rama_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | rama<14> | 2684 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<14> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | rama<15> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | rama_2$Q | 2650 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_2.Q | rama_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | rama<15> | 2685 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<15> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | rama<16> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | rama_3$Q | 2652 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | rama_3.Q | rama_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | rama<16> | 2686 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<16> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<14> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_14_OBUF | 2673 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_14_OBUF.Q | roma_14_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<14> | 2687 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<14> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<15> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_15_OBUF | 2674 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_15_OBUF.Q | roma_15_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<15> | 2688 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<15> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<16> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_16_OBUF | 2675 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_16_OBUF.Q | roma_16_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<16> | 2689 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<16> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<17> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_17_OBUF | 2676 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_17_OBUF.Q | roma_17_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<17> | 2690 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<17> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<18> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_18_OBUF | 2677 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_18_OBUF.Q | roma_18_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<18> | 2691 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<18> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<19> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_19_OBUF | 2678 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_19_OBUF.Q | roma_19_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<19> | 2692 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<19> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<20> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_20_OBUF | 2679 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_20_OBUF.Q | roma_20_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<20> | 2693 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<20> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<21> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_21_OBUF | 2680 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_21_OBUF.Q | roma_21_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<21> | 2694 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<21> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | roma<22> | mbc5_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | roma_22_OBUF | 2681 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | roma_22_OBUF.Q | roma_22_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | roma<22> | 2695 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | roma<22> | 0 | 6 | OI_OUT
+
+INPUT_INSTANCE | 0 | 0 | NULL | Pfbk_Created_rama<13> | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rama<13> | 2683 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<13> | 0 | 6 | OI_OUT
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rama<13>_PIN_BUF_ | 2841 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<13> | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Pfbk_Created_rama<14> | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rama<14> | 2684 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<14> | 0 | 6 | OI_OUT
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rama<14>_PIN_BUF_ | 2842 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<14> | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Pfbk_Created_rama<15> | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rama<15> | 2685 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<15> | 0 | 6 | OI_OUT
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rama<15>_PIN_BUF_ | 2843 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<15> | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Pfbk_Created_rama<16> | mbc5_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rama<16> | 2686 | PO | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | rama<16> | 0 | 6 | OI_OUT
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | rama<16>_PIN_BUF_ | 2844 | ? | 0 | 0 | mbc5_COPY_0_COPY_0 | NULL | NULL | Pfbk_Created_rama<16> | 0 | 5 | II_IMUX
+
+FB_INSTANCE | FOOBAR1_ | mbc5_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | rama_0 | 1 | Pfbk_Created_rama<13> | 1 | rama<13> | 1 | 40 | 49152
+FBPIN | 2 | NULL | 0 | wr_IBUF | 1 | NULL | 0 | 41 | 49152
+FBPIN | 4 | NULL | 0 | cs_IBUF | 1 | NULL | 0 | 42 | 49152
+FBPIN | 5 | NULL | 0 | rd_IBUF | 1 | NULL | 0 | 44 | 57344
+FBPIN | 6 | NULL | 0 | addr_14_IBUF | 1 | NULL | 0 | 2 | 49152
+FBPIN | 7 | NULL | 0 | addr_13_IBUF | 1 | NULL | 0 | 1 | 57344
+FBPIN | 8 | NULL | 0 | addr_15_IBUF | 1 | NULL | 0 | 3 | 49152
+FBPIN | 9 | NULL | 0 | data_0_IBUF | 1 | NULL | 0 | 5 | 49152
+FBPIN | 10 | NULL | 0 | data_1_IBUF | 1 | NULL | 0 | 6 | 49152
+FBPIN | 11 | NULL | 0 | data_2_IBUF | 1 | NULL | 0 | 7 | 49152
+FBPIN | 12 | romb_8 | 1 | data_3_IBUF | 1 | NULL | 0 | 8 | 49152
+FBPIN | 13 | romb_7 | 1 | NULL | 0 | NULL | 0 | 12 | 49152
+FBPIN | 14 | romb_6 | 1 | data_4_IBUF | 1 | NULL | 0 | 13 | 49152
+FBPIN | 15 | romb_5 | 1 | data_5_IBUF | 1 | NULL | 0 | 14 | 49152
+FBPIN | 16 | romb_4 | 1 | data_6_IBUF | 1 | NULL | 0 | 16 | 49152
+FBPIN | 17 | romb_3 | 1 | data_7_IBUF | 1 | NULL | 0 | 18 | 49152
+FBPIN | 18 | romb_2 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | mbc5_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | rama_1 | 1 | Pfbk_Created_rama<14> | 1 | rama<14> | 1 | 39 | 49152
+FBPIN | 2 | rama_2 | 1 | Pfbk_Created_rama<15> | 1 | rama<15> | 1 | 38 | 49152
+FBPIN | 3 | roma_22_OBUF | 1 | NULL | 0 | roma<22> | 1 | 36 | 53248
+FBPIN | 4 | rama_3 | 1 | Pfbk_Created_rama<16> | 1 | rama<16> | 1 | 37 | 49152
+FBPIN | 7 | romb_1 | 1 | addr_12_IBUF | 1 | NULL | 0 | 32 | 49152
+FBPIN | 8 | roma_21_OBUF | 1 | NULL | 0 | roma<21> | 1 | 31 | 49152
+FBPIN | 9 | roma_20_OBUF | 1 | NULL | 0 | roma<20> | 1 | 30 | 49152
+FBPIN | 10 | roma_19_OBUF | 1 | NULL | 0 | roma<19> | 1 | 29 | 49152
+FBPIN | 11 | roma_18_OBUF | 1 | NULL | 0 | roma<18> | 1 | 28 | 49152
+FBPIN | 12 | roma_17_OBUF | 1 | NULL | 0 | roma<17> | 1 | 27 | 49152
+FBPIN | 13 | roma_16_OBUF | 1 | NULL | 0 | roma<16> | 1 | 23 | 49152
+FBPIN | 14 | roma_15_OBUF | 1 | NULL | 0 | roma<15> | 1 | 22 | 49152
+FBPIN | 15 | roma_14_OBUF | 1 | NULL | 0 | roma<14> | 1 | 21 | 49152
+FBPIN | 16 | ramsel_OBUF | 1 | NULL | 0 | ramsel | 1 | 20 | 49152
+FBPIN | 17 | romb_0 | 1 | rst_IBUF | 1 | NULL | 0 | 19 | 49152
+FBPIN | 18 | ramen | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | mbc5_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | ADDR<15:12> | 4 | 0 | 0 | addr<12> | 3 | addr<13> | 2 | addr<14> | 1 | addr<15> | 0
+BUSINFO | DATA<7:0> | 8 | 0 | 0 | data<0> | 7 | data<1> | 6 | data<2> | 5 | data<3> | 4 | data<4> | 3 | data<5> | 2 | data<6> | 1 | data<7> | 0
+BUSINFO | RAMA<16:13> | 4 | 0 | 1 | rama<13> | 3 | rama<14> | 2 | rama<15> | 1 | rama<16> | 0
+BUSINFO | ROMA<22:14> | 9 | 0 | 1 | roma<14> | 8 | roma<15> | 7 | roma<16> | 6 | roma<17> | 5 | roma<18> | 4 | roma<19> | 3 | roma<20> | 2 | roma<21> | 1 | roma<22> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | addr<15> | 3 | 1 | data<0> | 5 | 2 | romb_8 | NULL | 3 | romb_7 | NULL | 4 | addr<14> | 2
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 5 | romb_6 | NULL | 6 | romb_5 | NULL | 7 | romb_4 | NULL | 8 | addr<13> | 1 | 9 | data<2> | 7
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 10 | addr<12> | 32 | 11 | romb_3 | NULL | 12 | romb_2 | NULL | 13 | data<3> | 8 | 20 | cs | 42
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 21 | data<4> | 13 | 24 | wr | 41 | 25 | data<5> | 14 | 28 | rama<13> | 40 | 29 | data<6> | 16
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 31 | rst | 19 | 33 | data<7> | 18
+
+FB_IMUX_INDEX | FOOBAR1_ | 36 | 37 | 999 | 999 | 40 | 999 | 999 | 999 | 44 | 45 | 46 | 999 | 999 | 49 | -1 | -1 | -1 | -1 | -1 | -1 | 56 | 57 | -1 | -1 | 60 | 61 | -1 | -1 | 64 | 65 | -1 | 67 | -1 | 69 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 0 | addr<15> | 3 | 1 | data<0> | 5 | 2 | romb_8 | NULL | 3 | romb_1 | NULL | 4 | addr<14> | 2
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 5 | data<1> | 6 | 6 | romb_7 | NULL | 7 | romb_6 | NULL | 8 | addr<13> | 1 | 9 | data<2> | 7
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 10 | addr<12> | 32 | 11 | romb_5 | NULL | 12 | rd | 44 | 13 | data<3> | 8 | 14 | romb_4 | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 15 | romb_3 | NULL | 16 | romb_2 | NULL | 17 | romb_0 | NULL | 18 | ramen | NULL | 20 | cs | 42
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 21 | data<4> | 13 | 24 | wr | 41 | 25 | data<5> | 14 | 26 | rama<16> | 37 | 29 | data<6> | 16
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 30 | rama<15> | 38 | 31 | rst | 19 | 32 | rama<14> | 39 | 33 | data<7> | 18
+
+FB_IMUX_INDEX | FOOBAR2_ | 36 | 37 | 999 | 999 | 40 | 41 | 999 | 999 | 44 | 45 | 46 | 999 | 48 | 49 | 999 | 999 | 999 | 999 | 999 | -1 | 56 | 57 | -1 | -1 | 60 | 61 | 62 | -1 | -1 | 65 | 66 | 67 | 68 | 69 | -1 | -1
+
