@@ -18,6 +18,7 @@ module mbc5(
     input [15:12] addr,
     input [7:0] data,
     input cs,
+    input phi,		// Not used on the original MBC5, only needed for FRAM support
     input rd,		// Not used on the original MBC5, only needed for FRAM support
     input wr,
     input rst,
@@ -31,19 +32,13 @@ reg ramen;
 
 assign roma = addr[14] ? romb : 9'd0;
 
-// The final || (rd && wr) does not match the original behavior. It is
-// included to support FRAM which requires /CS to toggle on every access.
-assign ramsel = cs || !ramen || addr[15:13] != 3'b101 || (rd && wr);
+// The final || phi || (rd && wr) does not match the original behavior. It
+// is included to support FRAM which requires /CS to toggle on every access.
+assign ramsel = cs || !ramen || addr[15:13] != 3'b101 || phi || (rd && wr);
 
-always @(negedge rst or negedge wr)
+always @(negedge rst or posedge wr)
 begin
     if(!rst)
-    begin
-        romb = 9'd1;
-        rama = 4'd0;
-        ramen = 1'b0;
-    end
-	 else if(cs)
     begin
         romb = 9'd1;
         rama = 4'd0;
